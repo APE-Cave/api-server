@@ -1,4 +1,3 @@
-/*
 'use strict';
 
 const { app } = require('../lib/server.js');
@@ -60,5 +59,3 @@ describe('Testing the tableware router', () => {
   });
 
 });
-
-*/

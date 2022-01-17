@@ -57,8 +57,6 @@ describe('Testing the food router', () => {
   it('Should find one by id and remove', async () => {
     const deleteResponse = await request.delete('/food/2');
     const updatedTable = await request.get('/food');
-    console.log('DELETION', deleteResponse.body);
-    console.log('POST-DELETION TABLE', updatedTable.body);
     expect(deleteResponse.status).toEqual(204);
     expect(updatedTable.body.length).toEqual(2);
   });

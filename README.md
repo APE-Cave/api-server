@@ -4,7 +4,7 @@
 
 HTTP Express API server with Collection interface between ReST endpoints and CRUD operations against a SQL database, deployed on Heroku here: [aenyeart-api-server.herokuapp.com](https://aenyeart-api-server.herokuapp.com)
 
-Most recent pull request: [https://github.com/aenyeart/api-server/pull/1](https://github.com/aenyeart/api-server/pull/1)
+Most recent pull request: [https://github.com/aenyeart/api-server/pull/2](https://github.com/aenyeart/api-server/pull/2)
 
 ## Data Flow Diagram
 ![](./UML.jpg)
