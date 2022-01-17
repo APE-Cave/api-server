@@ -1,10 +1,10 @@
-# basic-api-server
+# api-server
 
 **Author: [Andrew Enyeart](https://github.com/aenyeart)**
 
-HTTP Express API server with endpoints that perform CRUD operations on a SQL database, deployed on Heroku here: [aenyeart-basic-api-server.herokuapp.com](https://aenyeart-basic-api-server.herokuapp.com)
+HTTP Express API server with Collection interface between ReST endpoints and CRUD operations against a SQL database, deployed on Heroku here: [aenyeart-api-server.herokuapp.com](https://aenyeart-api-server.herokuapp.com)
 
-Most recent pull request: [https://github.com/aenyeart/basic-api-server/pull/2](https://github.com/aenyeart/basic-api-server/pull/2)
+Most recent pull request: [https://github.com/aenyeart/api-server/pull/2](https://github.com/aenyeart/api-server/pull/2)
 
 ## Data Flow Diagram
 ![](./UML.jpg)
@@ -14,7 +14,7 @@ Most recent pull request: [https://github.com/aenyeart/basic-api-server/pull/2](
 To install, open your command line and run:
 
 ```terminal
-git clone git@github.com:aenyeart/basic-api-server.git
+git clone git@github.com:aenyeart/api-server.git
 cd server-deployment-practice
 npm install
 ```
